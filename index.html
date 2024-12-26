@@ -458,20 +458,20 @@
     <div class="footer-input-cont">
         <p class="social-text">Subscribe</p>
        <form class="form-cont">
-        <label for=""><input type="email" class="footer-input" placeholder="E-mail"> </label>
+        <label for=""><input type="email" class="footer-input" name="email" placeholder="E-mail"> </label>
          
     <!-- при фокусе бордер и кнопка зеленіе -->
      <div>
-     <button type="button" class="send-button-footer">Subscribe
-        <p></p> 
-        <svg class="send-icon-button" width="24" height="20">
+     <button type="button" class="send-button-footer">Subscribe <svg class="send-icon-button" width="24" height="20">
             <use href="./images/backdrop-icons.svg#icon-send"></use>
-        </svg>
-     </button>
+        </svg></button>
+        <p></p> 
+        
+     </div>
     
      </div>
      
-     </div>
+     
     </form>
 
     </div>
@@ -498,7 +498,7 @@
   
   <div class="form-user-icon-wrapper">
    <input class="form-input" name="Name" type="text" id="form-user">
-        <svg class="icons-input" width="18px" height="24px">
+        <svg class="icons-input" width="18px" height="18px">
             <use href="./images/backdrop-icons.svg#icon-person"></use>
         </svg>
        </div> 
@@ -508,8 +508,8 @@
         
         <div class="form-user-icon-wrapper">
          <input class="form-input" name="phone" type="text" id="form-tel">
-              <svg class="icons-input" width="18px" height="24px">
-                  <use href="./images/backdrop-icons.svg#icon-tel"></use>
+              <svg class="icons-input" width="13px" height="13px">
+                  <use href="./images/icons.svg#icon-phone"></use>
               </svg>
              </div> 
       <!-- 3 -->
@@ -518,24 +518,17 @@
                 
                 <div class="form-user-icon-wrapper">
                  <input class="form-input" name="Name" type="text" id="form-mail">
-                      <svg class="icons-input" width="18px" height="24px">
-                          <use href="./images/backdrop-icons.svg#icon-ok"></use>
+                      <svg class="icons-input" width="15px" height="12px">
+                          <use href="./images/icons.svg#icon-mail"></use>
                       </svg>
                      </div> 
-
-
-
-
-
-
 
     </div>
  
     <label class="label-form" for="form-user">Comment</label>
-  <textarea class="form-textarea" placeholder="Text input"></textarea>
+  <textarea class="form-textarea" placeholder="Text input" name="Name" type="text" id="form-user"></textarea>
 
    </form>
-
 
 
 <div class="checkbox-div">
@@ -543,8 +536,7 @@
 <label for="">
 
 </label>
-<!-- центрир для иконки задано в спан, щтступ пр марджин 8пкс -->
-<!-- .input(cheket) + chekbox .label .span селек.дитини > -->
+
 <p ><span class="checkbox-text">I accept the terms and conditions of the </span><a href="https://policies.google.com" class="checkbox-text-part">Privacy Policy</a></p>
 
 </div>
