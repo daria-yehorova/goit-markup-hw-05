@@ -498,50 +498,65 @@ background-color: #31d0aa;
 display: block;
 margin-left: auto;
 }
+
 .send-button-footer {
+font-family: "Roboto", sans-serif;
+min-width: 165px;
+height: 40px;
 
 display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: row;
-gap: 16px;
+
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
     
 border-radius: 4px;
 padding: 8px 24px;
-width: 165px;
-height: 40px;
+border: none;
 
-color: #fff;
-background: #4d5ae5;
+color: #ffffff;
+background-color: #4D5AE5;
 
 margin-left: 24px;
 }
 
+.send-icon-button {
+margin-left: 16px; 
+    }
+
 
 
 .footer-input {
-background-color: #2e2f42;
 border: 1px solid #fff;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+padding-left: 16px;
+color: #ffffff;
+
+
 border-radius: 4px;
 width: 264px;
 height: 40px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background-color: transparent;
 }
 
 .footer-input::placeholder {
-padding: 8px 16px;
+color: #ffffff;
 font-weight: 400;
-font-size: 12px;
-line-height: 2;
-letter-spacing: 0.04em;
-color: #fff;
+
+
 }
 
-.send-icon-button {
-fill: #ffffff;  
-}
 .form-cont {
 display: flex;
+gap: 24px;
 }
 
 
