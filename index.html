@@ -457,13 +457,13 @@
     <div class="footer-input-cont">
         <p class="social-text">Subscribe</p>
        <form class="form-cont">
-        <label class="footer-label" for="email"><input type="email" class="footer-input" name="email" placeholder="E-mail" id="email"> </label>
+        <label class="footer-label" for="email"><input type="email" class="footer-input" name="email" placeholder="E-mail" id="email"></label>
          
 
      <button type="submit" class="send-button-footer">Subscribe<svg class="send-icon-button" width="24" height="24" fill="#ffffff">
             <use href="./images/icons.svg#icon-send"></use>
         </svg></button>
-        <p></p> 
+       
     
      </div>
      
@@ -476,9 +476,12 @@
    <!-- backdrop -->
 
 <div class="backdrop is-open">
+
  <div class="modal">
+
+    
   <button type="button" class="x-button">
-    <svg class="close" width="8px" height="8px">
+    <svg width="8px" height="8px" class="icon-close">
         <use href="./images/icons.svg#icon-close"></use>
     </svg>
  </button> 
@@ -488,76 +491,61 @@
  <!-- form -->
 
  <form class="backdrop-form">
-<!-- 1 -->
+
+   <!-- 1 -->
+     
  <div class="form-wrapper-cont">
-   
-     <label class="label-form" for="user-name">Name</label>
-  
- <div class="form-user-icon-wrapper">
-   <input class="form-input" name="user-name" type="text" id="user-name">
+    <label class="label-form" for="user-name">Name</label>
+    <div class="form-user-icon-wrapper">
+      <input class="form-input" name="name" type="text" id="user-name">
         <svg class="icons-input" width="18px" height="24px">
             <use href="./images/icons.svg#icon-person"></use>
-        </svg></div>
-       </div> 
+        </svg>
+     </div>
+    </div>
+
   <!-- 2 -->
-       <div class="form-wrapper-cont">
-        <label class="label-form" for="form-tel">Phone</label>
-        
-        <div class="form-user-icon-wrapper">
-         <input class="form-input" name="phone" type="text" id="form-tel">
+    
+   <div class="form-wrapper-cont">
+       <label class="label-form" for="form-tel">Phone</label> 
+       <div class="form-user-icon-wrapper">
+         <input class="form-input" name="phone" type="tel" id="form-tel">
               <svg class="icons-input" width="18px" height="24px">
                   <use href="./images/icons.svg#icon-phone"></use>
               </svg>
-             </div> 
+            </div>
+        </div>
+
       <!-- 3 -->
-             <div class="form-wrapper-cont">
-                <label class="label-form" for="form-mail">Email</label>
-                
-                <div class="form-user-icon-wrapper">
-                 <input class="form-input" name="Name" type="text" id="form-mail">
+            
+    <div class="form-wrapper-cont">
+         <label class="label-form" for="form-mail">Email</label> 
+         <div class="form-user-icon-wrapper">       
+                 <input class="form-input" name="mail" type="email" id="form-mail">
                       <svg class="icons-input" width="18px" height="24px">
                           <use href="./images/icons.svg#icon-mail"></use>
                       </svg>
-                     </div> 
+                </div>
+            </div>
 
-    </div>
- 
-    <label class="label-form" for="form-user">Comment</label>
-  <textarea class="form-textarea" placeholder="Text input" name="Name" type="text" id="form-user"></textarea>
+        <div class="form-wrapper-cont">
+    <label class="label-form" for="form-user-comment">Comment</label>
+  <textarea class="form-textarea" placeholder="Text input" name="text" type="text" id="form-user-comment"></textarea>
+        </div>
 
-   </form>
-
-
-<div class="checkbox-div">
-<input type="checkbox" class="checkbox-input" name="" id="">
-<label for="">
-
+       <div class="form-wrapper-checkbox">  
+  <input class="checkbox visually-hidden" type="checkbox" name="checkbox" id="form-user-checkbox">
+<label class="form-user-checkbox" for="form-user-checkbox"><span class="castom-checkbox"><svg width="10" height="8" class="castom-checkbox-icon">
+    <use href="./images/icons.svg#icon-ok"></use>
+</svg>
+</span> I accept the terms and conditions of the <a href="https://policies.google.com" class="checkbox-text-part">Privacy Policy</a>
 </label>
-
-<p ><span class="checkbox-text">I accept the terms and conditions of the </span><a href="https://policies.google.com" class="checkbox-text-part">Privacy Policy</a></p>
-
 </div>
-
-<!-- chekbox focus color blu -->
-
-
-<button type="submit" class="button-hero button-text checkbox-button">Send</button>
-
-
-
-
-
-
-
+<button type="submit" class="checkbox-button">Send</button>
+</form>
 
 </div>
  </div>
-</div>
-
-
-
-
-
 
  </body>
 </html>
