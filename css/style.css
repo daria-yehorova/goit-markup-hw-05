@@ -666,6 +666,12 @@ height: 100%;
 .form-wrapper-cont {
 margin-bottom: 8px;
 }
+
+.form-wrapper-textarea {
+margin-bottom: 16px;
+}
+
+
 .form-user-icon-wrapper {
 position: relative;
 
