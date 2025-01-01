@@ -666,7 +666,7 @@ height: 100%;
 .form-wrapper-cont {
 margin-bottom: 8px;
 }
-    .form-user-icon-wrapper {
+.form-user-icon-wrapper {
 position: relative;
 }
 
@@ -774,7 +774,7 @@ fill: #F4F4FD;;
 .form-user-checkbox {
 font-weight: 400;
 font-size: 12px;
-line-height: 1.1;
+line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
 }
