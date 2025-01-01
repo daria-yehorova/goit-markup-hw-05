@@ -664,10 +664,11 @@ width: 360px;
 height: 100%;
 }
 .form-wrapper-cont {
-margin-bottom: 8px;
+
 }
 .form-user-icon-wrapper {
 position: relative;
+margin-bottom: 8px;
 }
 
 .label-form { 
