@@ -690,7 +690,7 @@ button {
 }
 
 .form-wrapper-cont {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .form-labels {
   display: block;
@@ -773,9 +773,6 @@ button {
   border-radius: 2px;
   background-color: #404bbf;
   border: none;
-}
-
-.checkbox:checked + .form-user-checkbox .castom-checkbox-item {
   fill: #f4f4fd;
 }
 .castom-checkbox-link {
