@@ -520,15 +520,14 @@
           <p class="footer-sub-text">Subscribe</p>
 
           <form class="subscribe-foot-form" action="#">
-            <label for="E-mail">
-              <input
-                class="input-footer"
-                type="email"
-                id="E-mail"
-                name="E-mail"
-                placeholder="E-mail"
-              />
-            </label>
+            <label class="label-input-footer" for="email"></label>
+            <input
+              class="input-footer"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="E-mail"
+            />
 
             <button class="btn-footer" type="submit">
               Subscribe
@@ -565,7 +564,7 @@
                 required
                 pattern="[A-Za-zА-Яа-яЁёІіЇїЄєҐґ\s]{2,20}"
               />
-              <svg class="form-user-icon" width="12" height="12">
+              <svg class="form-user-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-man"></use>
               </svg>
             </div>
@@ -581,7 +580,7 @@
                 required
                 pattern="[A-Za-zА-Яа-яЁёІіЇїЄєҐґ\s]{2,20}"
               />
-              <svg class="form-user-icon" width="13" height="13">
+              <svg class="form-user-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
@@ -597,22 +596,23 @@
                 required
                 pattern="[A-Za-zА-Яа-яЁёІіЇїЄєҐґ\s]{2,20}"
               />
-              <svg class="form-user-icon" width="16" height="12">
+              <svg class="form-user-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-ok"></use>
               </svg>
             </div>
           </div>
 
           <div class="form-wrapper-cont">
-            <label class="form-labels" for="form-user-coment">Comment</label>
+            <label class="form-labels" for="user-comment">Comment</label>
             <textarea
               class="form-user-coment"
-              id="form-user-coment"
+              id="user-comment"
+              name="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
 
-          <div class="checkbox-container">
+          <div class="checkbox">
             <input
               type="checkbox"
               class="checkbox visually-hidden"
@@ -625,10 +625,10 @@
               <span class="castom-checkbox"
                 ><svg class="castom-checkbox-item" width="10" height="8">
                   <use
-                    href="/images/icons.svg#icon-checkbox-ok"
+                    href="./images/icons.svg#icon-checkbox-ok"
                   ></use></svg></span
               >I accept the terms and conditions of the
-              <a href="#">Privacy Policy</a>
+              <a class="castom-checkbox-link" href="#">Privacy Policy</a>
             </label>
           </div>
           <button class="btn-send" type="submit">Send</button>
